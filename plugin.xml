@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (c) Microsoft Open Technologies, Inc.  All Rights Reserved. 
+ Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information.
+-->
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+           id="com.msopentech.indexedDB"
+      version="0.1.0">
+    <name>IndexedDB polyfill</name>
+
+    <description>IndexedDB plugin for Apache Cordova</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova, indexedDB, db, database</keywords>
+    <repo>https://github.com/msopentech/cordova-plugin-indexedDB/</repo>
+    <issue>https://github.com/msopentech/cordova-plugin-indexedDB/issues</issue>
+
+    <platform name="ios">
+        <js-module src="www/IndexedDBShim.min.js" name="IndexedDBShim">
+            <runs />
+        </js-module> 
+    </platform>
+
+    <platform name="android">
+        <js-module src="www/IndexedDBShim.min.js" name="IndexedDBShim">
+            <runs />
+        </js-module> 
+    </platform>
+</plugin>
