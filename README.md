@@ -15,7 +15,7 @@ Plugin follows [Indexed Database API](http://www.w3.org/TR/IndexedDB/) specifica
     };
     openReq.onsuccess = function (event) {
         var db = event.target.result,
-            sampleItem = { 
+            sampleItem = {
                 todo: "my todo item",
                 added_on: new Date()
             };
@@ -30,13 +30,13 @@ Plugin follows [Indexed Database API](http://www.w3.org/TR/IndexedDB/) specifica
     openReq.onerror = function (event) {
         console.log("Operation failed");
     }
-    
+
 ### Installation Instructions ###
 
-Plugin is [Apache Cordova CLI](http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html) 3.x compliant. 
+Plugin is [Apache Cordova CLI](http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html) 3.x compliant.
 
 1. Make sure an up-to-date version of **Node.js** is installed, then type the following command to install the [Cordova CLI](https://github.com/apache/cordova-cli):
-    
+
         npm install -g cordova
 
 2. Create a project and add the platforms you want to support:
@@ -56,7 +56,7 @@ Plugin is [Apache Cordova CLI](http://cordova.apache.org/docs/en/edge/guide_cli_
         cordova emulate android
 
 To learn more, read [Apache Cordova CLI Usage Guide](http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html).
- 
+
 ### Copyrights ###
 Copyright (c) Microsoft Open Technologies, Inc. All Rights Reserved.
 Licensed under the Apache License, Version 2.0. See LICENSE.txt in the project root for license information.
