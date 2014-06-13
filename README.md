@@ -35,25 +35,25 @@ Plugin follows [Indexed Database API](http://www.w3.org/TR/IndexedDB/) specifica
 
 Plugin is [Apache Cordova CLI](http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html) 3.x compliant. 
 
-1.Make sure an up-to-date version of Node.js is installed, then type the following command to install the [Cordova CLI](https://github.com/apache/cordova-cli):
+1. Make sure an up-to-date version of **Node.js** is installed, then type the following command to install the [Cordova CLI](https://github.com/apache/cordova-cli):
     
-    npm install -g cordova
+        npm install -g cordova
 
-2.Create a project and add the platforms you want to support:
+2. Create a project and add the platforms you want to support:
 
-    cordova create sampleApp
-    cd sampleApp
-    cordova platform add android
-    cordova platform add ios
+        cordova create sampleApp
+        cd sampleApp
+        cordova platform add android
+        cordova platform add ios
 
-3.Add IndexedDB plugin to your project:
+3. Add IndexedDB plugin to your project:
 
-    cordova plugin add https://github.com/MSOpenTech/cordova-plugin-indexedDB
+        cordova plugin add com.msopentech.indexeddb
 
-4.Build and run, for example:
+4. Build and run, for example:
 
-    cordova build android
-    cordova emulate android
+        cordova build android
+        cordova emulate android
 
 To learn more, read [Apache Cordova CLI Usage Guide](http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html).
  
