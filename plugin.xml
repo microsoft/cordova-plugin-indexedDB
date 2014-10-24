@@ -26,4 +26,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             <runs />
         </js-module> 
     </platform>
+
+    <platform name="windows">
+	<!-- Needed for Windows Phone 8.1 support -->
+    	<dependency id="com.msopentech.websql"/>
+        <js-module src="www/requireWebSql.js" name="RequireWebSql">
+            <runs />
+        </js-module> 
+        <js-module src="www/IndexedDBShim.min.js" name="IndexedDBShim">
+            <runs />
+        </js-module> 
+    </platform>
 </plugin>
