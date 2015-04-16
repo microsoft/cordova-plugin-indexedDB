@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-indexeddb",
+  "version": "0.1.2",
+  "description": "Cordova IndexedDB Plugin",
+  "cordova": {
+    "id": "cordova-plugin-indexeddb",
+    "platforms": [
+      "android",
+      "ios",
+      "windows8",
+      "windows",
+      "browser"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MSOpenTech/cordova-plugin-indexedDB.git"
+  },
+  "keywords": [
+    "cordova",
+    "indexeddb",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows8",
+    "cordova-windows",
+    "cordova-browser"
+  ],
+  "author": "Microsoft Open Technologies Inc",
+  "license": "Apache 2.0"
+}
