@@ -29,7 +29,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
     <platform name="windows">
 	<!-- Needed for Windows Phone 8.1 support -->
-    	<dependency id="com.msopentech.websql"/>
+    	<dependency id="cordova-plugin-websql"/>
         <js-module src="www/requireWebSql.js" name="RequireWebSql">
             <runs />
         </js-module> 
