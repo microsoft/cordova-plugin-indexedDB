@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-indexeddb",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Cordova IndexedDB Plugin",
   "cordova": {
     "id": "cordova-plugin-indexeddb",
