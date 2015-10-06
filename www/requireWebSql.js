@@ -1,1 +1,1 @@
-window.openDatabase = window.openDatabase || require('com.msopentech.websql.WebSQL').openDatabase;
+window.openDatabase = window.openDatabase || require('cordova-plugin-websql.WebSQL').openDatabase;
