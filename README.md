@@ -48,7 +48,7 @@ Plugin is [Apache Cordova CLI](http://cordova.apache.org/docs/en/edge/guide_cli_
 
 3. Add IndexedDB plugin to your project:
 
-        cordova plugin add com.msopentech.indexeddb
+        cordova plugin add cordova-plugin-indexeddb
 
 4. Build and run, for example:
 
